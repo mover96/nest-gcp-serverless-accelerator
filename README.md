@@ -9,6 +9,10 @@ This accelerator allows you to quickly deploy a Nest.js app to GCP serverless.
 - The local module is for running all functions side by side for local dev
   - The local module leverages `nest-router` to prefix all of your function's module routes with a string representing that functions path, similarly to how you would set up GCP functions under a domain
 
+## Prerequisites
+
+- Have `gcloud` cli installed, logged in, and set to the GCP project you want to deploy the function(s) too
+
 ## Adding a New Function
 
 1. Duplicate the `functions/app` folder and replace all occurrences of `app` with your new function name
